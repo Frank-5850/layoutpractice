@@ -3,15 +3,16 @@ import React from "react";
 const ProductBox = (props) => {
   const styles = {
     overAll: {
-      border: "var(--celadon-color) solid",
-      backgroundColor: "var(--honeydew-color)",
-      borderRadius: "3rem",
+      // border: "var(--green-color) solid",
+      backgroundColor: "white",
+      borderRadius: "5px",
       width: "90%",
       height: "200px",
-      margin: "10px",
+      margin: "20px",
       display: "flex",
       padding: "3rem",
-      color: "black",
+      boxShadow: "5px 5px 5px grey"
+      // color: "black",
     },
     text: {
       display: "flex",
@@ -23,6 +24,8 @@ const ProductBox = (props) => {
     },
     button: {
       width: "100px",
+      backgroundColor: "var(--green-color)",
+      color: "white",
     },
   };
   return (

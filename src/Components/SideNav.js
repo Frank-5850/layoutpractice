@@ -4,8 +4,9 @@ import React from "react";
 const SideNav = () => {
   const styles = {
     overAll: {
-      backgroundColor: "var(--prussian-color)",
-      color: "var(--imperial-color)",
+      // backgroundColor: "var(--green-color)",
+      color: "var(--fontGreen-color)",
+      // border: "var(--green-color) solid",
       width: "30%",
       height: "90vh",
       position: "sticky",
@@ -18,6 +19,7 @@ const SideNav = () => {
     header: {
       margin: "0",
       padding: "20px",
+      paddingBottom: "5px"
     },
     listWrap: {
       height: "100%",
@@ -25,8 +27,9 @@ const SideNav = () => {
       width: "100%",
     },
     list: {
+      borderRight: "var(--greenFont-color) solid",
       listStyle: "none",
-      height: "40vh",
+      height: "30vh",
       width: "100%",
       margin: "0",
       padding: "0",

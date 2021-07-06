@@ -5,17 +5,24 @@ const Nav = () => {
     nav: {
       width: "100%",
       height: "10vh",
-      borderBottom: "var(--powder-color) solid",
-      backgroundColor: "var(--prussian-color)",
-      color: "var(--imperial-color)",
+      // borderBottom: "var(--powder-color) solid",
+      backgroundColor: "var(--green-color)",
+      color: "white",
       display: "flex",
       position: "sticky",
       top: "0",
     },
+    logo: {
+      width: "30%",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+    },
+
     listStyle: {
       listStyle: "none",
       display: "flex",
-      width: "100%",
+      width: "70%",
       justifyContent: "space-around",
       alignItems: "center",
     },
@@ -23,6 +30,9 @@ const Nav = () => {
 
   return (
     <nav style={styles.nav}>
+      <div style={styles.logo}>
+        <h1>TITLE</h1>
+      </div>
       <ul style={styles.listStyle}>
         <li>Home</li>
         <li>Products</li>
