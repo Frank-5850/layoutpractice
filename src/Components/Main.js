@@ -2,7 +2,7 @@ import React from "react";
 
 const Main = (props) => {
   const styles = {
-    backgroundColor: "lightgrey",
+    backgroundColor: "var(--grey-color)",
     width: "70%",
     display: "flex",
     flexFlow: "wrap",

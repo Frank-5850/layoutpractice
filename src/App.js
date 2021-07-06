@@ -42,9 +42,6 @@ function App() {
             description={"teaches"}
             price={"priceless"}
           />
-          {/* <ProductBox />
-          <ProductBox />
-          <ProductBox /> */}
         </Main>
       </Wrapper>
     </div>
