@@ -2,6 +2,7 @@ import React from "react";
 
 const Main = (props) => {
   const styles = {
+    backgroundColor: "lightgrey",
     width: "70%",
     display: "flex",
     flexFlow: "wrap",

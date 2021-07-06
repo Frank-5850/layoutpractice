@@ -5,8 +5,9 @@ const Nav = () => {
     nav: {
       width: "100%",
       height: "10vh",
-      backgroundColor: "black",
-      color: "white",
+      borderBottom: "var(--powder-color) solid",
+      backgroundColor: "var(--prussian-color)",
+      color: "var(--imperial-color)",
       display: "flex",
       position: "sticky",
       top: "0",

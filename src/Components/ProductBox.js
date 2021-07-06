@@ -3,8 +3,8 @@ import React from "react";
 const ProductBox = (props) => {
   const styles = {
     overAll: {
-      border: "black solid",
-      backgroundColor: "grey",
+      border: "var(--celadon-color) solid",
+      backgroundColor: "var(--honeydew-color)",
       borderRadius: "3rem",
       width: "90%",
       height: "200px",
@@ -21,6 +21,9 @@ const ProductBox = (props) => {
       marginLeft: "10px",
       width: "100%",
     },
+    button: {
+      width: "100px",
+    },
   };
   return (
     <div style={styles.overAll}>
@@ -31,6 +34,7 @@ const ProductBox = (props) => {
           <p>{props.description}</p>
           <p>$ {props.price}</p>
         </div>
+        <button style={styles.button}>Add to Cart</button>
       </div>
     </div>
   );

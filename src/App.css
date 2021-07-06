@@ -2,3 +2,11 @@
   margin: 0;
   position: relative;
 }
+
+:root {
+  --imperial-color: #e63946;
+  --honeydew-color: #f1faee;
+  --powder-color: #a8dadc;
+  --celadon-color: #457b9d;
+  --prussian-color: #1d3557;
+}
